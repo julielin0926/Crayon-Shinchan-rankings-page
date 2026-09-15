@@ -1,0 +1,50 @@
+/* style.css 內容範例 */
+body {
+    background-color: #ffffff;
+    border-width: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+ul {
+    background-color: #000000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;  /* 關鍵：開啟 Flexbox 水平排列 */
+    justify-content: center; /* 可選：用 justify-content 調整對齊方式（例如置中或分散對齊） */
+    text-align: center;  /* 文字置中（可選） */
+}
+
+li {
+    margin: 10px; /* 調整每個列表項目的間距 */
+    padding: 5px;
+    color: #ffffff; /* 文字顏色 */
+}
+
+a {
+    color: #ffffff; /* 連結文字顏色 */
+    text-decoration: none; /* 移除連結底線 */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px auto; /* 置中圖片 */
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    text-align: center;  /* 文字置中（可選） */
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff; /* 文字顏色 */
+}
