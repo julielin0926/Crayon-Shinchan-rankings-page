@@ -42,9 +42,36 @@ table {
     margin: 50px auto;
     border-collapse: collapse;
     text-align: center;  /* 文字置中（可選） */
+    border: 1px solid #000000; /* 表格邊框 */
+}
+
+tr:hover {
+    background-color: rgb(255, 252, 100);
+    font-size: 30px;
 }
 
 th {
     background-color: #000000;
     color: #ffffff; /* 文字顏色 */
+}
+
+td {
+    border: 1px solid #000000; /* 表格邊框 */
+    padding: 10px;
+    color: #000000; /* 文字顏色 */
+}
+
+.rank-1{
+    background-color: rgb(255, 28, 28);
+    font-size: 30px;
+}
+
+.rank-2{
+    background-color: rgb(255, 124, 16);
+    font-size: 25px;
+}
+
+.rank-3{
+    background-color: rgb(235, 255, 50);
+    font-size: 20px;
 }
